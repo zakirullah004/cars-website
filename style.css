@@ -1,0 +1,307 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* background:linear-gradient(#a619f8,#00f200fe ); */
+    background: linear-gradient(#000000, #f0f403fe);
+
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Home page design  */
+
+#container_navbar {
+    background-color: black;
+    border-radius: 3px;
+
+}
+
+#container_navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    justify-content: flex-end;
+    color: white;
+}
+
+#container_navbar li {
+    color: white;
+    text-decoration: none;
+    margin: 10px 40px;
+}
+
+#container_navbar a {
+    background-color: yellow;
+    padding: 4px;
+    color: black;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#container_navbar a:hover {
+    border: 2px solid yellow;
+    background-color: black;
+    color: yellow;
+    box-shadow: 2px 2px 4px, -2px -1px 4px;
+}
+
+#container_navbar input {
+    border-radius: 8px;
+    width: 120px;
+}
+
+#heading_content {
+    margin-top: 10px;
+    /* border: 2px solid white; */
+    text-align: center;
+}
+
+#heading_content h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#heading_content P {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+.Latest {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#images_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.images {
+    text-align: center;
+}
+
+.images button {
+    width: 60px;
+    border-radius: 5px;
+    transition: width 1s;
+    padding: 3px;
+    background-color: lightslategray;
+    border-style: groove;
+    border-color: black;
+    margin-top: 3px;
+}
+
+.images h3 {
+    font-weight: bolder;
+}
+
+.images button:hover {
+    border-color: yellow;
+    background-color: black;
+    color: white;
+    width: 90px;
+}
+
+.img {
+    border-radius: 20px;
+}
+
+#foot_index {
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+/* end of index page  */
+
+
+
+/* service page designing  */
+
+
+#service_heading {
+    font-weight: bold;
+    /* width: 100%; */
+    margin-top: 20px;
+    padding: 10px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+#service_heading h1 {
+    letter-spacing: 19px;
+}
+
+#sevices_points {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#service_container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.service_foot h3 {
+    background-color: black;
+    border-radius: 10px;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.service_foot p {
+    font-weight: bold;
+}
+
+/* end of service page  */
+
+
+/* contact us page design start  */
+
+#contact_us {
+    font-weight: bold;
+    margin-top: 60px;
+    padding: 10px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+/* for form design  */
+#form_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 6px;
+    padding: 20px 50px;
+    /* text-align: center; */
+    /* width: 40%; */
+    box-shadow: 2px 2px 10px rgba(105, 98, 98, 0.641), inset -2px -2px 10px black;
+    background-color: transparent;
+}
+
+#form input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0);
+}
+
+#form label {
+    font-weight: 400;
+}
+
+#form .radio {
+    border: none;
+    box-shadow: none;
+    height: auto;
+
+}
+
+.reset,
+.submit {
+    width: 50px;
+    transition: width 1s;
+    border-radius: 10px;
+    border: none;
+}
+
+.reset:hover {
+    width: 80px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+.submit:hover {
+    width: 80px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+
+#linktext {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+#socaillinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons P {
+    padding: 5px 10px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}
+
+/* contact us page design END  */
+
+
+
+/* cars page design START   */
+
+#car_heading {
+    display: flex;
+    justify-content: center;
+}
+
+#car_heading h1 {
+    color: white !important;
+    letter-spacing: 10px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container-card h5 {
+    text-align: center;
+    color: yellow;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.card-body {
+    background-color: black;
+    color: white !important;
+}
+
+/* cars page design END   */
